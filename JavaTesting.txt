@@ -4,6 +4,9 @@ selenium
 java== oops+constructors+collections+string
 POM (page Object module)
 TestNG
+Agile
+POM
+API's
 ******************************
  
 simple
@@ -26,7 +29,76 @@ platform independent
 
 HelloWorld.java--------compiler-----JVM(windows)
                                
+<<<<<<< HEAD
 -class is a blueprint/template describes the state/behaviour of its object, and that object is instance of the class.  
+=======
+-class is a blueprint/template describes the state/behaviour of its object, and that object 
+is instance of the class.  
+
+**********************************************
+
+/*access modifier at variable level
+	  * public
+	  *default
+	  *private
+	  *protected
+	  */
+
+	// written in public class ClassA package pkg1
+	public int publicVariable=1;		
+	int dafaultVariable=2;
+	private int privateVariable=3;
+	protected int protectedVariable = 4;
+
+	public void publicMethod()
+	{
+		System.out.println("Public Method");
+	}
+
+	void defaultMethod()
+	{
+		System.out.println("Default Method");
+	}
+
+	private void privateMethod()
+	{
+		System.out.println("Private Method");
+	}
+
+	protected void protectedMethod() //only accesed from that class in which it is present
+	{
+		System.out.println("Protected Method");
+	}  
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> dd88c4e (written notes basics)
 
 ********************************************************************
 Java Best Practices
@@ -98,3 +170,8 @@ Errors & Solutions
 		  java.lang.module.InvalidModuleDescriptorException: Provider class
 		  io.opentelemetry.sdk.autoconfigure.internal.EnvironmentResourceProvider not
 		  in module Ans. added selenium jar files to class path i.e referrence lib
+<<<<<<< HEAD
+=======
+
+************************************************************************
+>>>>>>> dd88c4e (written notes basics)

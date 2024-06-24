@@ -1,6 +1,6 @@
 package com.testing;
 
-import java.util.Iterator;
+
 
 public class MyJavaBasicApplication {
 
@@ -20,9 +20,11 @@ public class MyJavaBasicApplication {
 		my.diffParamaters("string", 12, 23);
 		System.out.println(my.addNumbers(5, 4));
 
-		System.out.println("***********************");
-		int j = 20; // instance variable
+		
 
+		System.out.println("***********************");
+		/* int j = 20; // instance variable
+ */
 //		DATA TYPES
 		/*
 		 * primitive data types
@@ -299,10 +301,11 @@ public class MyJavaBasicApplication {
 	 * PACKAGES
 	 * 
 	 * If you want to callout an method of demo.java in another demo2.java same
-	 * package, create obj in demo2.java and callout. If you want to callout an
+	 * package, create obj in demo2.java and callout. 
+	 * If you want to callout an
 	 * method of demo.java(soumya package) to demo2.java(soujanya package), add the
 	 * particular package(soumya package) to demo2.java
-	 * 
+	 * Callout all methods from another package use .*
 	 * 
 	 */
 	
@@ -327,5 +330,13 @@ public class MyJavaBasicApplication {
 
 	}
 	
-	
-}
+	//  Access modifiers in java
+	/* access modifier at class level
+	 * class MyJavaApplication  //removed public from here Called as default class
+	 * {
+	 * }
+	 * 
+	 * Default class can be accessed through files of same package only 
+	 */
+
+	 }
