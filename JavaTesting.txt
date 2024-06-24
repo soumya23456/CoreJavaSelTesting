@@ -1,0 +1,177 @@
+java
+******************************
+selenium
+java== oops+constructors+collections+string
+POM (page Object module)
+TestNG
+Agile
+POM
+API's
+******************************
+ 
+simple
+- user friendly syntax
+-no complex concepts of pointers
+-automatic garbage collection
+
+High level programming lang
+-converts high level(using syntax) coding to low level(bits 0 & 1) using compiler
+
+Object Oriented
+-object
+-class
+-Inheritance
+-Polymorphism
+-Abstraction
+-Encapsulation
+
+platform independent
+
+HelloWorld.java--------compiler-----JVM(windows)
+                               
+<<<<<<< HEAD
+-class is a blueprint/template describes the state/behaviour of its object, and that object is instance of the class.  
+=======
+-class is a blueprint/template describes the state/behaviour of its object, and that object 
+is instance of the class.  
+
+**********************************************
+
+/*access modifier at variable level
+	  * public
+	  *default
+	  *private
+	  *protected
+	  */
+
+	// written in public class ClassA package pkg1
+	public int publicVariable=1;		
+	int dafaultVariable=2;
+	private int privateVariable=3;
+	protected int protectedVariable = 4;
+
+	public void publicMethod()
+	{
+		System.out.println("Public Method");
+	}
+
+	void defaultMethod()
+	{
+		System.out.println("Default Method");
+	}
+
+	private void privateMethod()
+	{
+		System.out.println("Private Method");
+	}
+
+	protected void protectedMethod() //only accesed from that class in which it is present
+	{
+		System.out.println("Protected Method");
+	}  
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> dd88c4e (written notes basics)
+
+********************************************************************
+Java Best Practices
+
+		
+		  oracle doc name conventions
+		  
+		  https://www.oracle.com/java/technologies/javase/codeconventions-
+		  namingconventions.html
+		  
+		  class first letters capital of every word class RasterPasterLaster;
+		  
+		  interfaces same as classes
+		  
+		  method first word of first letter small rest words first letter capital
+		  runFast(); runBackground();
+		  
+		  Variables float myWidth;
+		  
+		  constants static final int MIN_WIDTH
+		 
+
+		
+		  oracle 22 doc api
+		  
+		  https://docs.oracle.com/en/java/javase/22/docs/api/index.html
+		  
+		  java packages java.basic java.lang classes jdk packages
+		  
+		 
+
+		
+		  oracle operators summary
+		  
+		  https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html
+		 
+
+		
+		  Arrays in java
+		  
+		  https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html
+		 
+
+		
+		  Selenium packages
+		  
+		  https://www.selenium.dev/selenium/docs/api/java/index.html
+
+**********************************************************************
+shortcuts
+
+		
+		  single line comment ctrl+/
+		  
+		  multi-line comment  enter ctrl+sht+/
+		  multi-line uncomment /* enter ctrl+sht+\
+		 
+
+		
+		  sht+ctrl+f formate sentence structure
+
+*********************************************************************
+Errors & Solutions
+		
+		  1. Error occurred during initialization of boot layer java.lang.module.
+		  FindException: Unable to derive module descriptor for
+		  C:\Users\91957\Downloads\selenium-java-4.21.0\opentelemetry-sdk-extension-
+		  autoconfigure-1.38.0-sources.jar Caused by:
+		  java.lang.module.InvalidModuleDescriptorException: Provider class
+		  io.opentelemetry.sdk.autoconfigure.internal.EnvironmentResourceProvider not
+		  in module Ans. added selenium jar files to class path i.e referrence lib
+<<<<<<< HEAD
+=======
+
+************************************************************************
+>>>>>>> dd88c4e (written notes basics)
